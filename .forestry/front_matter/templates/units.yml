@@ -1,4 +1,21 @@
 ---
 label: Units
 hide_body: false
-fields: []
+fields:
+- name: qwer
+  type: select
+  default: ''
+  config:
+    required: false
+    options: []
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: qwer
+- name: temp
+  type: include
+  config: {}
+  template: posts
+  label: temp
